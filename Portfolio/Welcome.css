@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
+
+html{
+  Background: url(http://dbsound.co/wp-content/uploads/2019/01/green-watercolor-wallpaper-blue-and-hd-mural.jpg);
+  background-size: 100%;
+  display: flex; 
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body{
+  /* background-size: 100%; */
+  text-align: center;   
+  width: 100vw;
+  height: 100vh;
+  margin-top:10%;  
+  overflow: hidden;
+}
+
+.welcome{
+  display: grid;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 200px;
+  letter-spacing: 2px;   
+}
+
+
+
+.welcome a{
+  color: #000;
+  text-decoration: none;
+/*   opacity: 0.3; */
+  transition: .5s;
+}
+
+.welcome a:hover{
+  color: rgba(255,255,255,0);
+/*   color: rgba (0,0,0, 75%); */
+  transition: .5s;
+  font-size: 225px;
+
+}

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
+
+html{
+  font-family: 'Abel', sans-serif;
+  Background: url(http://dbsound.co/wp-content/uploads/2019/01/green-watercolor-wallpaper-blue-and-hd-mural.jpg);
+  background-size: 100%;
+  display: flex; 
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* /* overflow: auto; */
+}
+
+html::-webkit-scrollbar { 
+  display: none;
+}
+
+.nav{
+  height: 120px; 
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.nav ul{
+  padding: 3% 0% 3% 0%;
+  margin: 0;
+  word-spacing: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nav ul li{
+  display: inline;
+  letter-spacing: 1px;
+  word-spacing: 1px;  
+}
+
+.nav a{ 
+  color: #000;
+  text-decoration: none;
+  transition: .3s;  
+}
+  
+.nav a:hover,
+.nav a:active{
+  color:rgb(42, 228, 228);
+  transition: .5s;
+  font-size: 50px;
+}
+
+.logo {
+  grid-area: nav;
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+  word-spacing: 50px;
+  text-shadow: 12px 2px 5px #5C5C62;
+}
+  
+.logo h1{
+  font-size:150px; 
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hobby{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+
+.summary{
+  margin-left: 8%;
+  margin-right: 8%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.summary img{
+  float: right;
+  height: 400px;
+  width: 400px;
+  margin: 1% 1% 1% 10%;
+  border: 3px solid #000;    
+}
+
+.summary p{
+  overflow: auto; 
+  text-indent:4%;
+  
+}
+
+.quote > q{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.traveling{
+  /* float: left; */
+  display: grid;
+  grid-template-areas:
+    "travel map";
+}
+
+.travel{
+  margin-right: 25px;
+}
+
+.map{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;  
+  /* max-width: 100%;*/
+  height: auto;
+  /* border: 3px solid #000;  */
+  float: right;   
+}
+
+
+.footer{
+  background-color:#0F9558;
+  width: auto;
+  border-top: 4px dotted black;
+
+}
+
+.footer-contents{
+  display: grid;
+  grid-template-areas:
+    "si c so"
+    "si c so"
+    "si c so";
+  padding: 20px;
+}
+
+.footer-contents ul{
+  list-style: none;
+}
+
+/* .footer-contents ul p,a{
+  font-size: 18px;
+} */
+
+.footer-contents a{
+  text-decoration: none;
+}
+
+.footer-contents a:visited{
+  color: black;
+}
+
+

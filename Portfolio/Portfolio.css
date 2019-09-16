@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
+
+html{
+  font-family: 'Abel', sans-serif;
+  Background: url(http://dbsound.co/wp-content/uploads/2019/01/green-watercolor-wallpaper-blue-and-hd-mural.jpg);
+  background-size: 100%;
+  display: flex; 
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* /* overflow: auto; */
+}
+
+html::-webkit-scrollbar { 
+  display: none;
+}
+
+  
+.nav{
+  height: 120px; 
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.nav ul{
+  padding: 3% 0% 3% 0%;
+  margin: 0;
+  word-spacing: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nav ul li{
+  display: inline;
+  letter-spacing: 1px;
+  word-spacing: 1px;  
+}
+  
+  .nav a{ 
+  color: #000;
+    text-decoration: none;
+    transition: .3s;  
+  }
+    
+  .nav a:hover,
+  .nav a:active{
+    color:rgb(42, 228, 228);
+    transition: .5s;
+    font-size: 50px;
+  }
+  
+  .logo {
+    grid-area: nav;
+  /*   height: 120px; */
+  font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    word-spacing: 50px;
+    text-shadow: 12px 2px 5px #5C5C62;
+  }
+    
+  .logo h1{
+    font-size:150px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+.portfolio{
+  margin-bottom: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+  .portfolio p{
+    font-size: 20px;
+
+  }
+
+  .portfolio a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .portfolio a:visited{
+    color: #000;
+
+  }
+
+  .portfolio a:hover{
+    color:#007875;
+
+  }
+  
+  .footer{
+    background-color:#0F9558;
+    border-top: 4px dotted black;
+
+    /* width: auto; */
+  }
+  
+  .footer-contents{
+    display: grid;
+    grid-template-areas:
+      "si c so"
+      "si c so"
+      "si c so";
+    padding: 20px;
+  }
+  
+  .footer-contents ul{
+    list-style: none;
+  }
+  
+  /* .footer-contents ul p,a{
+    font-size: 18px;
+  } */
+  
+  .footer-contents a{
+    text-decoration: none;
+  }
+  
+  .footer-contents a:visited{
+    color: black;
+  }
